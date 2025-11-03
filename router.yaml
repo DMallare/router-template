@@ -17,7 +17,7 @@ health_check:
   path: /health # Optional, default: /health
 
 homepage:
-  enabled: false
+  enabled: true
 include_subgraph_errors:
   all: true
 
