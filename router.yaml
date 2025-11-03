@@ -13,7 +13,7 @@ supergraph:
 
 health_check:
   listen: 0.0.0.0:8088
-  enabled: true
+  enabled: false
   path: /health # Optional, default: /health
 
 homepage:
