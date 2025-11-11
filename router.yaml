@@ -45,7 +45,7 @@ coprocessor:
   timeout: 2s
   router:
     request:
-      headers: true
+      header: true
 authentication:
   router:
     jwt:
