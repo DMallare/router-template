@@ -39,20 +39,6 @@ cors:
   #   - "${env.ADMIN_URL}"
   allow_any_origin: true
 
-# testing something
-coprocessor:
-  url: http://coprocessor.apollo.svc.cluster.local:8081
-  timeout: 2s
-  router:
-    request:
-      header: true
-authentication:
-  router:
-    jwt:
-      jwks:
-      - url: http://auth-service:8080/.well-known/jwks.json
-# end test
-
 # limits:
 #   parser_max_tokens: 15000 # This is the default value.
 #   parser_max_recursion: 4096 # This is the default value.
